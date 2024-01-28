@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+label{
+    cursor: pointer;
+}
+.select2-container .select2-selection--single{
+    height: calc(2.25rem + 2px);
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 32px;
+}
+
+.w-150{
+    width: 150px !important;
+}
+.w-200{
+    width: 200px !important;
+}
+
+.bg-header{
+    background-color: #EEEDEB !important;
+}
+.bg-body-content{
+    background-color: #EEEDEB !important;
+}
+.bg-footer{
+    background-color: #FF8080 !important;
+}
+.btn-nro{
+    background-color: #3C0753;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 2px 3px 8px rgb(170, 500, 217)
+}
+.btn-nro:hover, .btn-nro:focus, .btn-nro:active{
+    background-color: #FFB0B0;
+    color: #fff;
+}
+.text-main {
+    color: #ad4105;
+}
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+body {
+    background: #b3afaf url('../images/background.jpg');
+    background-size: 1920px 970px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.page-link {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #924c31;
+    border-color: #924c31;
+}
+.page-item.active .page-link:hover,
+.page-item.active .page-link:active,
+.page-item.active .page-link:focus{
+    border-color: #713c27;
+    background-color: #713c27;
+    color: #fff;
+}
+
+/* header */
+.logo{
+    width: 40%;
+}
+.icon-download{
+    width: 85%;
+}
+.khung-css {
+    width: 500px;
+}
+
